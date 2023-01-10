@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* npx tailwindcss -i ./pages/styles/input.css -o ./pages/styles/output.css --watch */

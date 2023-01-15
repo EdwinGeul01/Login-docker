@@ -40,7 +40,7 @@ router.get('/login' , (req , res)=>{
                 console.log(err.message)
             };
 
-            if(rows)
+            if(rows.length > 0)
             {
                 res.send('Bienvenido ' + rows[0]['name'] + ' ** Borra las cookies si quieres navegar al login **');
             }

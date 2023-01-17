@@ -6,3 +6,8 @@ Run the command :
 ```
    docker-compose up -d 
 ```
+
+The application run on 
+```
+   localhost:3000
+```
